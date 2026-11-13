@@ -5,93 +5,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="City Pizza San Vicente - Pizzas artesanales, delivery y comida para llevar en San Vicente de Cañete.">
-    <meta name="keywords" content="City Pizza, pizza, San Vicente, Cañete, delivery, pizzería, comida para llevar">
+        content="City Pizza San Vicente - Pizzas, delivery y comida para llevar en San Vicente de Cañete.">
+    <meta name="keywords" content="City Pizza, pizza, San Vicente, Cañete, delivery, pizzería">
     <meta name="author" content="City Pizza San Vicente">
     <title>City Pizza | San Vicente de Cañete</title>
-
-    <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
         integrity="sha384-XGjxtQfXaH2tnPFa9x+ruJTuLE3Aa6LhHSWRr1XeTyhezb4abCG4ccI5AkVDxqC+" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 
-    <!-- FUENTES DE GOOGLE: Fjalla One para títulos y Figtree para textos -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fjalla+One&display=swap"
-        rel="stylesheet">
-
-    <!-- ESTILOS PRINCIPALES (PÁGINA INICIO) -->
-    <link rel="stylesheet" href="assets/css/index.css">
-
-    <!-- FAVICON -->
+    <!-- <llink rel="icon" type="image/x-icon" href="favicon.ico"> -->
     <link rel="icon" type="image/x-icon" href="favicon.ico?v=2">
 </head>
 
 <body>
 
     <div class="encabezado-fijo">
-                <!-- BARRA SUPERIOR DE CONTACTO -->
-                <div class="top-bar">
-                    <div class="container top-bar-content">
-                        <span>📍 San Vicente de Cañete, Lima - Perú</span>
-                        <div class="top-bar-contact-items">
-                            <a href="tel:+51995312255"><i class="bi bi-telephone-fill"></i> +51 995 312 255</a>
-                            <a href="contacto.html"><i class="bi bi-chat-dots-fill"></i> Contáctanos</a>
-                        </div>
-                    </div>
-                </div>
 
-            <!-- CABECERA Y NAVEGACIÓN -->
-            <header class="header">
-                <div class="container nav-container">
-                    <a href="index.html" class="logo" aria-label="City Pizza Inicio">
-                        <img src="assets/brand/logo.jpg" alt="Logo de City Pizza" class="logo-image">
-                        <span class="logo-text">City <span>Pizza</span></span>
-                    </a>
+        <!-- BARRA SUPERIOR DE CONTACTO -->
 
-                            <!-- BOTÓN DEL MENÚ HAMBURGUESA -->
-                            <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false"
-                                aria-controls="menu-navegacion">
-                                <i class="bi bi-list"></i>
-                            </button>
+        <div class="top-bar">
+            <div class="container top-bar-content">
 
-                    <!-- NAVEGACIÓN PRINCIPAL (5 PÁGINAS) -->
-                    <nav class="nav" id="menu-navegacion">
-                        <a href="index.html" aria-current="page">Inicio</a>
-                        <a href="nosotros.html">Nosotros</a>
-                        <a href="menu.html">Menú</a>
-                        <a href="galeria.html">Galería</a>
-                        <a href="contacto.html">Contacto</a>
-                    </nav>
-                </div>
-            </header>
+                <span>📍 San Vicente de Cañete</span>
+
+                <a href="#contacto">
+                    ☎ Contáctanos
+                </a>
+
+            </div>
+
         </div>
 
-        <main>
-            <!-- HERO / INICIO -->
-            <section id="inicio" class="hero">
-                <div class="hero-content container">
-                    <div class="hero-text">
-                        <span class="hero-tag"><i class="bi bi-star-fill"></i> SABOR QUE TE HACE VOLVER</span>
-                        <h1>La pizza que alegra tu día</h1>
-                        <p>
-                            Disfruta de una deliciosa experiencia con pizzas artesanales hechas con pasión
-                            y los mejores ingredientes en San Vicente de Cañete.
-                        </p>
+        <header class="header">
+            <div class="container nav-container">
+                <a href="#inicio" class="logo">
+                    <img src="assets/brand/logo.jpeg" alt="City Pizza" class="logo-image">
+                </a>
 
-                        <div class="hero-buttons">
-                            <a href="menu.html" class="btn btn-primary"><i class="bi bi-menu-button-wide"></i> Ver
-                                menú</a>
-                            <a href="contacto.html" class="btn btn-secondary"><i class="bi bi-telephone"></i>
-                                Contáctanos</a>
-                        </div>
-                    </div>
+                <nav class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#menu">Menú</a>
+                    <a href="#horarios">Horarios</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+            </div>
+        </header>
 
-                    <div class="hero-image">
-                        <img src="assets/banner.jpg" alt="Pizzas recién horneadas de City Pizza">
+    </div>
+
+    <main>
+
+        <section id="inicio" class="hero">
+            <div class="hero-content container">
+                <div class="hero-text">
+                    <span class="hero-tag"><i class="bi bi-star-fill"></i> SABOR QUE TE HACE VOLVER</span>
+                    <h1>La pizza que alegra tu día</h1>
+                    <p>
+                        Disfruta de una deliciosa experiencia con City Pizza
+                        en San Vicente de Cañete.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary">Ver menú</a>
+                        <a href="#contacto" class="btn btn-secondary">Contáctanos</a>
                     </div>
                 </div>
-            </section>
+
+                <!-- CABECERA Y NAVEGACIÓN -->
+                <header class="header">
+                    <div class="container nav-container">
+                        <a href="index.html" class="logo" aria-label="City Pizza Inicio">
+                            <img src="assets/brand/logo.jpg" alt="Logo de City Pizza" class="logo-image">
+                            <span class="logo-text">City <span>Pizza</span></span>
+                        </a>
+
+                        <!-- BOTÓN DEL MENÚ HAMBURGUESA -->
+                        <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false"
+                            aria-controls="menu-navegacion">
+                            <i class="bi bi-list"></i>
+                        </button>
+
+                        <!-- NAVEGACIÓN PRINCIPAL (5 PÁGINAS) -->
+                        <nav class="nav" id="menu-navegacion">
+                            <a href="index.html" aria-current="page">Inicio</a>
+                            <a href="nosotros.html">Nosotros</a>
+                            <a href="menu.html">Menú</a>
+                            <a href="galeria.html">Galería</a>
+                            <a href="contacto.html">Contacto</a>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+
+            <main>
+                <!-- HERO / INICIO -->
+                <section id="inicio" class="hero">
+                    <div class="hero-content container">
+                        <div class="hero-text">
+                            <span class="hero-tag"><i class="bi bi-star-fill"></i> SABOR QUE TE HACE VOLVER</span>
+                            <h1>La pizza que alegra tu día</h1>
+                            <p>
+                                Disfruta de una deliciosa experiencia con pizzas artesanales hechas con pasión
+                                y los mejores ingredientes en San Vicente de Cañete.
+                            </p>
+
+                            <div class="hero-buttons">
+                                <a href="menu.html" class="btn btn-primary"><i class="bi bi-menu-button-wide"></i> Ver
+                                    menú</a>
+                                <a href="contacto.html" class="btn btn-secondary"><i class="bi bi-telephone"></i>
+                                    Contáctanos</a>
+                            </div>
+                        </div>
+
+                        <div class="hero-image">
+                            <img src="assets/banner.jpg" alt="Pizzas recién horneadas de City Pizza">
+                        </div>
+                    </div>
+                </section>
 
                 <!-- SECCIÓN NOSOTROS (RESUMEN EN HOME) -->
                 <section id="nosotros" class="section section-alt">
@@ -145,137 +176,194 @@
                     </div>
                 </section>
 
-                    <!-- SECCIÓN MENÚ DESTACADO -->
-                    <section id="menu" class="section">
-                        <div class="container">
-                            <div class="section-title">
-                                <span>NUESTRO MENÚ</span>
-                                <h2>Opciones para compartir</h2>
-                                <p>
-                                    Consulta nuestras promociones y combos familiares ideales para tus reuniones.
-                                </p>
-                            </div>
-
-                            <div class="menu-posters">
-                                <figure class="menu-poster">
-                                    <img src="assets/menu/menu1.jpg"
-                                        alt="Menú de pizzas especiales, otros platos y bebidas">
-                                    <figcaption>Especiales, platos y bebidas</figcaption>
-                                </figure>
-                                <figure class="menu-poster">
-                                    <img src="assets/menu/menu2.jpg"
-                                        alt="Menú de pizzas clásicas, supremas y acompañantes">
-                                    <figcaption>Clásicas, supremas y acompañantes</figcaption>
-                                </figure>
-                                <figure class="menu-poster">
-                                    <img src="assets/promos/promo28.jpg" alt="Promoción familiar de pizza y alitas">
-                                    <figcaption>Promoción familiar</figcaption>
-                                </figure>
-                                <figure class="menu-poster">
-                                    <img src="assets/promos/promocomjuguete.jpg"
-                                        alt="Promoción de pizza con juguete y bebida">
-                                    <figcaption>Promoción con juguete</figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="menu-table-container">
-                                <table class="menu-table">
-                                    <thead>
-                                        <tr>
-                                            <th>Producto</th>
-                                            <th>Descripción</th>
-                                            <th>Precio</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><strong>Pizza Pepperoni</strong></td>
-                                            <td>Salsa pomodoro artesanal, mozzarella derretido y finas láminas de
-                                                pepperoni crocante.</td>
-                                            <td>Consultar</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Pizza Hawaiana</strong></td>
-                                            <td>La combinación perfecta de jamón inglés selecto, trozos de piña dulce y
-                                                queso mozzarella.</td>
-                                            <td>Consultar</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Pizza de Queso Mozzarella</strong></td>
-                                            <td>Una opción clásica e irresistible para los amantes del buen queso
-                                                fundido.</td>
-                                            <td>Consultar</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Complementos & Alitas</strong></td>
-                                            <td>Alitas BBQ, palitos de ajo con mantequilla y bebidas refrescantes para
-                                                acompañar.</td>
-                                            <td>Consultar</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-
-                            <div style="text-align: center; margin-top: 30px;">
-                                <a href="menu.html" class="btn btn-primary"><i class="bi bi-journal-text"></i> Ver carta
-                                    y tabla de precios completa</a>
-                            </div>
+                <!-- SECCIÓN MENÚ DESTACADO -->
+                <section id="menu" class="section">
+                    <div class="container">
+                        <div class="section-title">
+                            <span>NUESTRO MENÚ</span>
+                            <h2>Opciones para compartir</h2>
+                            <p>
+                                Consulta nuestras promociones y combos familiares ideales para tus reuniones.
+                            </p>
                         </div>
-                    </section>
 
-                        <!-- GALERÍA DE PIZZAS (CONVERTIDA A CSS GRID) -->
-                        <section id="galeria" class="section section-alt">
-                            <div class="container">
-                                <div class="section-title">
-                                    <span>NUESTRA GALERÍA</span>
-                                    <h2>Conoce nuestras pizzas</h2>
+                        <div class="menu-posters">
+                            <figure class="menu-poster">
+                                <img src="assets/menu/menu1.jpg"
+                                    alt="Menú de pizzas especiales, otros platos y bebidas">
+                                <figcaption>Especiales, platos y bebidas</figcaption>
+                            </figure>
+                            <figure class="menu-poster">
+                                <img src="assets/menu/menu2.jpg" alt="Menú de pizzas clásicas, supremas y acompañantes">
+                                <figcaption>Clásicas, supremas y acompañantes</figcaption>
+                            </figure>
+                            <figure class="menu-poster">
+                                <img src="assets/promos/promo28.jpg" alt="Promoción familiar de pizza y alitas">
+                                <figcaption>Promoción familiar</figcaption>
+                            </figure>
+                            <figure class="menu-poster">
+                                <img src="assets/promos/promocomjuguete.jpg"
+                                    alt="Promoción de pizza con juguete y bebida">
+                                <figcaption>Promoción con juguete</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="menu-table-container">
+                            <table class="menu-table">
+                                <thead>
+                                    <tr>
+                                        <th>Producto</th>
+                                        <th>Descripción</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Pizza Pepperoni</strong></td>
+                                        <td>Salsa pomodoro artesanal, mozzarella derretido y finas láminas de
+                                            pepperoni crocante.</td>
+                                        <td>Consultar</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Pizza Hawaiana</strong></td>
+                                        <td>La combinación perfecta de jamón inglés selecto, trozos de piña dulce y
+                                            queso mozzarella.</td>
+                                        <td>Consultar</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Pizza de Queso Mozzarella</strong></td>
+                                        <td>Una opción clásica e irresistible para los amantes del buen queso
+                                            fundido.</td>
+                                        <td>Consultar</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Complementos & Alitas</strong></td>
+                                        <td>Alitas BBQ, palitos de ajo con mantequilla y bebidas refrescantes para
+                                            acompañar.</td>
+                                        <td>Consultar</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div style="text-align: center; margin-top: 30px;">
+                            <a href="menu.html" class="btn btn-primary"><i class="bi bi-journal-text"></i> Ver carta
+                                y tabla de precios completa</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- GALERÍA DE PIZZAS (CONVERTIDA A CSS GRID) -->
+                <section id="galeria" class="section section-alt">
+                    <div class="container">
+                        <div class="section-title">
+                            <span>NUESTRA GALERÍA</span>
+                            <h2>Conoce nuestras pizzas</h2>
+                        </div>
+
+                        <div class="galeria">
+                            <figure class="galeria-item">
+                                <div class="galeria-item-media">
+                                    <span class="galeria-badge-tag">Favorita</span>
+                                    <img src="assets/img/pizza-pepperoni.jpg" alt="Pizza de pepperoni City Pizza">
                                 </div>
+                                <figcaption>
+                                    <strong>Pizza de Pepperoni</strong>
+                                    <span>Doble porción de pepperoni y queso dorado al punto ideal.</span>
+                                </figcaption>
+                            </figure>
 
-                            <div class="galeria">
-                                <figure class="galeria-item">
-                                    <div class="galeria-item-media">
-                                        <span class="galeria-badge-tag">Favorita</span>
-                                        <img src="assets/img/pizza-pepperoni.jpg" alt="Pizza de pepperoni City Pizza">
-                                    </div>
-                                    <figcaption>
-                                        <strong>Pizza de Pepperoni</strong>
-                                        <span>Doble porción de pepperoni y queso dorado al punto ideal.</span>
-                                    </figcaption>
-                                </figure>
+                            <figure class="galeria-item">
+                                <div class="galeria-item-media">
+                                    <span class="galeria-badge-tag">Clásica</span>
+                                    <img src="assets/img/pizza-hawaiana.jpg" alt="Pizza hawaiana City Pizza">
+                                </div>
+                                <figcaption>
+                                    <strong>Pizza Hawaiana</strong>
+                                    <span>Jamón tierno y piña dulce sobre base de salsa casera.</span>
+                                </figcaption>
+                            </figure>
 
-                                    <figure class="galeria-item">
-                                        <div class="galeria-item-media">
-                                            <span class="galeria-badge-tag">Clásica</span>
-                                            <img src="assets/img/pizza-hawaiana.jpg" alt="Pizza hawaiana City Pizza">
-                                        </div>
-                                        <figcaption>
-                                            <strong>Pizza Hawaiana</strong>
-                                            <span>Jamón tierno y piña dulce sobre base de salsa casera.</span>
-                                        </figcaption>
-                                    </figure>
+                            <figure class="galeria-item">
+                                <div class="galeria-item-media">
+                                    <span class="galeria-badge-tag">Tradicional</span>
+                                    <img src="assets/img/pizza-queso.jpg" alt="Pizza de queso City Pizza">
+                                </div>
+                                <figcaption>
+                                    <strong>Pizza de Queso</strong>
+                                    <span>Puro queso mozzarella con toques de orégano selecto.</span>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div style="text-align: center; margin-top: 35px;">
+                            <a href="galeria.html" class="btn btn-primary"><i class="bi bi-images"></i> Ver
+                                galería fotográfica completa</a>
+                        </div>
+                    </div>
+
+                </section>
+
+                <tr>
+                    <td>Pizza Hawaiana</td>
+                    <td>Pizza con combinación de ingredientes dulces y salados.</td>
+                    <td>Consultar</td>
+                </tr>
+
+                <tr>
+                    <td>Pizza de queso</td>
+                    <td>Una opción clásica para los amantes del queso.</td>
+                    <td>Consultar</td>
+                </tr>
+
+                <tr>
+                    <td>Complementos</td>
+                    <td>Opciones adicionales para acompañar tu pedido.</td>
+                    <td>Consultar</td>
+                </tr>
+                </tbody>
+                </table>
+                </div>
+                </div>
+        </section>
+
+        <!-- GALERÍA DE PIZZAS -->
+
+        <section id="galeria" class="section">
+            <div class="container">
+
+                <div class="section-title">
+                    <span>NUESTRA GALERÍA</span>
+                    <h2>Conoce nuestras pizzas</h2>
+                    <p>Descubre algunas de nuestras deliciosas pizzas.
+                    </p>
+
+                </div>
+
+                <div class="galeria">
+                    <figure class="galeria-item">
+                        <img src="assets/img/pizza-pepperoni.jpg" alt="Pizza de pepperoni">
+                        <figcaption>Pizza de pepperoni</figcaption>
+                    </figure>
 
                     <figure class="galeria-item">
-                        <div class="galeria-item-media">
-                            <span class="galeria-badge-tag">Tradicional</span>
-                            <img src="assets/img/pizza-queso.jpg" alt="Pizza de queso City Pizza">
-                        </div>
-                        <figcaption>
-                            <strong>Pizza de Queso</strong>
-                            <span>Puro queso mozzarella con toques de orégano selecto.</span>
-                        </figcaption>
+                        <img src="assets/img/pizza-hawaiana.jpg" alt="Pizza hawaiana">
+                        <figcaption>Pizza hawaiana</figcaption>
                     </figure>
-                                </div>
+                    </figure>
 
-                                <div style="text-align: center; margin-top: 35px;">
-                                    <a href="galeria.html" class="btn btn-primary"><i class="bi bi-images"></i> Ver
-                                        galería fotográfica completa</a>
-                                </div>
-    </div>
+                    <figure class="galeria-item">
+                        <img src="assets/img/pizza-queso.jpg" alt="Pizza de queso">
+                        <figcaption>Pizza de queso</figcaption>
+                    </figure>
 
-    </section>
+                </div>
 
-        <!-- HORARIOS Y UBICACIÓN -->
-        <section id="horarios" class="section">
+        </section>
+
+
+
+        <section id="horarios" class="section schedule-section">
             <div class="container">
                 <div class="section-title">
                     <span>HORARIOS</span>
@@ -334,37 +422,62 @@
             </div>
         </section>
 
-            <!-- SECCIÓN DE VIDEOS MULTIMEDIA -->
-            <section class="section section-alt">
-                <div class="container">
-                    <div class="section-title">
-                        <span>CONOCE NUESTRA PASIÓN</span>
-                        <h2>El arte de preparar una pizza</h2>
-                        <p>Descubre cómo se prepara una auténtica pizza con dedicación y técnica.</p>
+        <section>
+            <div class="container">
+                <div class="section-title">
+                    <span>CONOCE NUESTRA PASIÓN</span>
+                    <H2>El arte de preparar una pizza</H2>
+                    <p>Descubre cómo se prepara una deliciosa pizza.</p>
+
+                </div>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ywrLSeDVH5U?si=RPkD7bS5PvXIw20W"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- VIDEO MP4 LOCAL -->
+        <section id="video-local">
+            <h2>¡Así se prepara nuestra pizza!</h2>
+
+            <video controls width="560">
+                <source src="assets/videos/pizza-A.mp4" type="video/mp4">
+                Tu navegador no admite videos HTML5.
+            </video>
+        </section>
+
+        <section id="contacto" class="section contact-section">
+            <div class="container contact-container">
+
+                <div class="video-grid">
+                    <div class="video-card">
+                        <h3>Video Tutorial de Preparación</h3>
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/ywrLSeDVH5U?si=RPkD7bS5PvXIw20W"
+                                title="YouTube video player - Preparación de pizza"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <p>Aprende sobre la masa, fermentación e ingredientes de primera calidad.</p>
                     </div>
 
-                        <div class="video-grid">
-                            <div class="video-card">
-                                <h3>Video Tutorial de Preparación</h3>
-                                <div class="video-container">
-                                    <iframe src="https://www.youtube.com/embed/ywrLSeDVH5U?si=RPkD7bS5PvXIw20W"
-                                        title="YouTube video player - Preparación de pizza"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                </div>
-                                <p>Aprende sobre la masa, fermentación e ingredientes de primera calidad.</p>
-                            </div>
-
-                            <div class="video-card">
-                                <h3>Así Horneamos en City Pizza</h3>
-                                <!-- VIDEO MP4 CON AUTOPLAY, LOOP, MUTED SEGÚN REQUERIMIENTO APF3 -->
-                                <video controls autoplay loop muted playsinline>
-                                    <source src="assets/videos/pizza-a.mp4" type="video/mp4">
-                                    Tu navegador no admite videos HTML5.
-                                </video>
-                                <p>Proceso de horneado en video local para abrir el apetito.</p>
-                            </div>
-                        </div>
+                    <div class="video-card">
+                        <h3>Así Horneamos en City Pizza</h3>
+                        <!-- VIDEO MP4 CON AUTOPLAY, LOOP, MUTED SEGÚN REQUERIMIENTO APF3 -->
+                        <video controls autoplay loop muted playsinline>
+                            <source src="assets/videos/pizza-a.mp4" type="video/mp4">
+                            Tu navegador no admite videos HTML5.
+                        </video>
+                        <p>Proceso de horneado en video local para abrir el apetito.</p>
+                    </div>
+                </div>
 
                 <!-- SECCIÓN CONTACTO RÁPIDO EN HOME -->
                 <section id="contacto" class="section">
@@ -402,98 +515,140 @@
                             </div>
                         </div>
 
-                            <form class="contact-form" action="#" method="post">
-                                <div class="form-group">
-                                    <label for="nombre">Nombre completo</label>
-                                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre"
-                                        required>
-                                </div>
+                        <form class="contact-form" action="#" method="post">
+                            <div class="form-group">
+                                <label for="nombre">Nombre completo</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                            </div>
 
-                                <div class="form-group">
-                                    <label for="correo">Correo electrónico</label>
-                                    <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com"
-                                        required>
-                                </div>
+                            <div class="form-group">
+                                <label for="correo">Correo electrónico</label>
+                                <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+                            </div>
 
-                                <div class="form-group">
-                                    <input type="tel" id="telefono" name="telefono" placeholder="ejemplo: 987654321"
-                                        pattern="[0-9]{9}" title="Ingresa un número de 9 dígitos" required>
-                                    <label for="asunto">Asunto</label>
-                                    <input type="text" id="asunto" name="asunto" placeholder="Asunto de tu consulta"
-                                        required>
-                                </div>
+                            <div class="form-group">
+                                <input type="tel" id="telefono" name="telefono" placeholder="ejemplo: 987654321"
+                                    pattern="[0-9]{9}" title="Ingresa un número de 9 dígitos" required>
+                                <label for="asunto">Asunto</label>
+                                <input type="text" id="asunto" name="asunto" placeholder="Asunto de tu consulta"
+                                    required>
+                            </div>
 
-                                <div class="form-group">
-                                    <label for="mensaje">Mensaje</label>
-                                    <textarea id="mensaje" name="mensaje" rows="5"
-                                        placeholder="Escribe tu mensaje aquí..." required></textarea>
-                                </div>
+                            <div class="form-group">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."
+                                    required></textarea>
+                            </div>
 
-                                <button type="submit" class="btn btn-primary form-button"><i
-                                        class="bi bi-send-fill"></i> Enviar mensaje</button>
-                            </form>
+                            <button type="submit" class="btn btn-primary form-button"><i class="bi bi-send-fill"></i>
+                                Enviar mensaje</button>
+                        </form>
                     </div>
                 </section>
-                </main>
+    </main>
 
-                <!-- FOOTER CON INFORMACIÓN DE CONTACTO COMPLETA -->
-                <footer class="footer">
-                    <div class="container footer-container">
-                        <div class="footer-brand">
-                                <a href="index.html" class="logo" aria-label="City Pizza Inicio">
-                                    <img src="assets/brand/logo.jpg" alt="Logo de City Pizza" class="logo-image">
-                                    <span class="logo-text">City <span>Pizza</span></span>
-                                </a>
-
-                                <p class="footer-description">
-                                    El auténtico sabor de la pizza artesanal en San Vicente de Cañete. Calidad, frescura
-                                    y calidez en cada porción.
-                                </p>
-
-                                <!-- INFORMACIÓN DE CONTACTO COMPLETA (DIRECCIÓN, TELÉFONO Y CORREO) -->
-                                <address class="footer-contacto">
-                                    <p><i class="bi bi-geo-alt-fill"></i> Av. Mariscal Benavides 338, San Vicente de
-                                        Cañete, Lima, Perú</p>
-                                    <p><i class="bi bi-telephone-fill"></i> <a href="tel:+51995312255">+51 995 312
-                                            255</a></p>
-                                    <p><i class="bi bi-envelope-fill"></i> <a
-                                            href="mailto:contacto@citypizza.example">contacto@citypizza.example</a></p>
-                                </address>
-                        </div>
-
-                        <div class="footer-links">
-                            <h3>Navegación</h3>
-                            <a href="index.html"><i class="bi bi-chevron-right"></i> Inicio</a>
-                            <a href="nosotros.html"><i class="bi bi-chevron-right"></i> Nosotros</a>
-                            <a href="menu.html"><i class="bi bi-chevron-right"></i> Menú</a>
-                            <a href="galeria.html"><i class="bi bi-chevron-right"></i> Galería</a>
-                            <a href="contacto.html"><i class="bi bi-chevron-right"></i> Contacto</a>
-                        </div>
-
-                        <div class="footer-social">
-                            <h3>Síguenos</h3>
-                            <a href="https://www.instagram.com/citypizza_sanvicente/" target="_blank"
-                                rel="noopener noreferrer"><i class="bi bi-instagram"></i> Instagram</a>
-                            <a href="https://www.facebook.com/YaVieneLaPizza/?locale=es_LA" target="_blank"
-                                rel="noopener noreferrer"><i class="bi bi-facebook"></i> Facebook</a>
-                            <a href="https://wa.me/51995312255" target="_blank" rel="noopener noreferrer"><i
-                                    class="bi bi-whatsapp"></i> WhatsApp</a>
-                        </div>
-                    </div>
-
-                    <div class="footer-bottom">
-                        <p>© 2026 City Pizza - San Vicente de Cañete. Todos los derechos reservados.</p>
-                    </div>
-                </footer>
-
-                <!-- BOTÓN VOLVER ARRIBA -->
-                    <a href="#inicio" class="scroll-up" title="Volver arriba" aria-label="Volver arriba">
-                        <i class="bi bi-arrow-up"></i>
+    <!-- FOOTER CON INFORMACIÓN DE CONTACTO COMPLETA -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo" aria-label="City Pizza Inicio">
+                    <img src="assets/brand/logo.jpg" alt="Logo de City Pizza" class="logo-image">
+                    <span class="logo-text">City <span>Pizza</span></span>
                 </a>
 
-                <!-- SCRIPT PRINCIPAL -->
-                <script src="assets/js/main.js"></script>
+                <p class="footer-description">
+                    El auténtico sabor de la pizza artesanal en San Vicente de Cañete. Calidad, frescura
+                    y calidez en cada porción.
+                </p>
 
+                <!-- INFORMACIÓN DE CONTACTO COMPLETA (DIRECCIÓN, TELÉFONO Y CORREO) -->
+                <address class="footer-contacto">
+                    <p><i class="bi bi-geo-alt-fill"></i> Av. Mariscal Benavides 338, San Vicente de
+                        Cañete, Lima, Perú</p>
+                    <p><i class="bi bi-telephone-fill"></i> <a href="tel:+51995312255">+51 995 312
+                            255</a></p>
+                    <p><i class="bi bi-envelope-fill"></i> <a
+                            href="mailto:contacto@citypizza.example">contacto@citypizza.example</a></p>
+                </address>
+            </div>
+
+            <div class="footer-links">
+                <h3>Navegación</h3>
+                <a href="index.html"><i class="bi bi-chevron-right"></i> Inicio</a>
+                <a href="nosotros.html"><i class="bi bi-chevron-right"></i> Nosotros</a>
+                <a href="menu.html"><i class="bi bi-chevron-right"></i> Menú</a>
+                <a href="galeria.html"><i class="bi bi-chevron-right"></i> Galería</a>
+                <a href="contacto.html"><i class="bi bi-chevron-right"></i> Contacto</a>
+            </div>
+
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <a href="https://www.instagram.com/citypizza_sanvicente/" target="_blank" rel="noopener noreferrer"><i
+                        class="bi bi-instagram"></i> Instagram</a>
+                <a href="https://www.facebook.com/YaVieneLaPizza/?locale=es_LA" target="_blank"
+                    rel="noopener noreferrer"><i class="bi bi-facebook"></i> Facebook</a>
+                <a href="https://wa.me/51995312255" target="_blank" rel="noopener noreferrer"><i
+                        class="bi bi-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 City Pizza - San Vicente de Cañete. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <div class="contact-item">
+        <div><i class="bi bi-clock-fill"></i></div>
+        <div>
+            <strong>Horario</strong>
+            <p>Martes a domingo: 14:30 - 23:00</p>
+        </div>
+    </div>
+    </div>
+
+    <form class="contact-form">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="telefono">teléfono</label>
+
+            <input type="tel" id="telefono" name="telefono" placeholder="ejemplo: 987654321" pattern="[0-9]{9}"
+                title="Ingresa un número de 9 dígitos" required>
+
+        </div>
+
+
+        <div class="form-group">
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje" required>
+        </div>
+
+        <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary form-button">Enviar mensaje</button>
+    </form>
+
+    </div>
+    </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#inicio" class="logo">
+                    <img src="assets/brand/logo.jpeg" alt="City Pizza" class="logo-image">
+                </a>
 </body>
 
 </html>
