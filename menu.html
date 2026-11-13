@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carta completa de City Pizza en San Vicente de Cañete: Pizzas clásicas, especiales, promociones familiares, alitas y bebidas.">
+    <meta name="keywords" content="City Pizza, Menú, Carta, Precios, Pizzas, Pepperoni, Hawaiana, Promociones, San Vicente de Cañete">
+    <meta name="author" content="City Pizza San Vicente">
+    <title>Menú & Carta | City Pizza San Vicente</title>
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" integrity="sha384-XGjxtQfXaH2tnPFa9x+ruJTuLE3Aa6LhHSWRr1XeTyhezb4abCG4ccI5AkVDxqC+" crossorigin="anonymous">
+
+    <!-- FUENTES DE GOOGLE: Fjalla One para títulos y Figtree para textos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fjalla+One&display=swap" rel="stylesheet">
+
+    <!-- ESTILOS PRINCIPALES (PÁGINA MENÚ) -->
+    <link rel="stylesheet" href="assets/css/menu.css">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=2">
+</head>
+
+<body>
+
+    <div class="encabezado-fijo">
+        <!-- BARRA SUPERIOR DE CONTACTO -->
+        <div class="top-bar">
+            <div class="container top-bar-content">
+                <span>📍 San Vicente de Cañete, Lima - Perú</span>
+                <div class="top-bar-contact-items">
+                    <a href="tel:+51995312255"><i class="bi bi-telephone-fill"></i> +51 995 312 255</a>
+                    <a href="contacto.html"><i class="bi bi-chat-dots-fill"></i> Contáctanos</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CABECERA Y NAVEGACIÓN -->
+        <header class="header">
+            <div class="container nav-container">
+                <a href="index.html" class="logo" aria-label="City Pizza Inicio">
+                    <img src="assets/brand/logo.jpg" alt="Logo de City Pizza" class="logo-image">
+                    <span class="logo-text">City <span>Pizza</span></span>
+                </a>
+
+                <!-- BOTÓN DEL MENÚ HAMBURGUESA -->
+                <button class="nav-toggle" type="button"
+                    aria-label="Abrir menú"
+                    aria-expanded="false"
+                    aria-controls="menu-navegacion">
+                    <i class="bi bi-list"></i>
+                </button>
+
+                <!-- NAVEGACIÓN PRINCIPAL (5 PÁGINAS) -->
+                <nav class="nav" id="menu-navegacion">
+                    <a href="index.html">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="menu.html" aria-current="page">Menú</a>
+                    <a href="galeria.html">Galería</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <!-- ENCABEZADO DE PÁGINA -->
+    <header class="page-header">
+        <div class="container">
+            <span class="hero-tag"><i class="bi bi-tag-fill"></i> SABOR INIGUALABLE</span>
+            <h1>Nuestra Carta & Menú</h1>
+            <p>
+                Descubre nuestra variedad de pizzas artesanales, combos especiales y promociones para compartir en grande.
+            </p>
+            <div class="breadcrumb">
+                <a href="index.html">Inicio</a> / <span>Menú</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECCIÓN 1: PIZZAS DESTACADAS EN GRID -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-title">
+                    <span>SELECCIÓN DE LA CASA</span>
+                    <h2>Nuestras Pizzas Más Pedidas</h2>
+                    <p>Elaboradas con masa fresca estirada a mano, salsa de tomates maduros y abundante queso mozzarella.</p>
+                </div>
+
+                <div class="pizza-grid">
+                    <!-- PIZZA 1 -->
+                    <article class="pizza-card">
+                        <div class="pizza-card-image">
+                            <span class="pizza-badge">La Favorita</span>
+                            <img src="assets/img/pizza-pepperoni.jpg" alt="Pizza de Pepperoni City Pizza">
+                        </div>
+                        <div class="pizza-card-body">
+                            <h3>Pizza Pepperoni</h3>
+                            <p>
+                                Nuestra clásica más aclamada. Salsa artesanal de tomates, abundante queso mozzarella fundido
+                                y finas rodajas de pepperoni dorado y crocante.
+                            </p>
+                            <div class="pizza-card-footer">
+                                <span class="pizza-price">
+                                    <small>Desde</small> S/ 25.00
+                                </span>
+                                <a href="contacto.html" class="btn btn-primary"><i class="bi bi-cart-plus"></i> Pedir</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PIZZA 2 -->
+                    <article class="pizza-card">
+                        <div class="pizza-card-image">
+                            <span class="pizza-badge">Clásica Dulce</span>
+                            <img src="assets/img/pizza-hawaiana.jpg" alt="Pizza Hawaiana City Pizza">
+                        </div>
+                        <div class="pizza-card-body">
+                            <h3>Pizza Hawaiana</h3>
+                            <p>
+                                La combinación agridulce que nunca falla: jamón inglés seleccionado, trozos jugosos de piña en almíbar
+                                y una generosa capa de queso mozzarella.
+                            </p>
+                            <div class="pizza-card-footer">
+                                <span class="pizza-price">
+                                    <small>Desde</small> S/ 24.00
+                                </span>
+                                <a href="contacto.html" class="btn btn-primary"><i class="bi bi-cart-plus"></i> Pedir</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PIZZA 3 -->
+                    <article class="pizza-card">
+                        <div class="pizza-card-image">
+                            <span class="pizza-badge">Tradicional</span>
+                            <img src="assets/img/pizza-queso.jpg" alt="Pizza de Queso Mozzarella City Pizza">
+                        </div>
+                        <div class="pizza-card-body">
+                            <h3>Pizza de Queso Mozzarella</h3>
+                            <p>
+                                Para los verdaderos amantes del queso. Una generosa cubierta de mozzarella de primera calidad con finas hierbas
+                                y un toque de orégano recién tostado.
+                            </p>
+                            <div class="pizza-card-footer">
+                                <span class="pizza-price">
+                                    <small>Desde</small> S/ 22.00
+                                </span>
+                                <a href="contacto.html" class="btn btn-primary"><i class="bi bi-cart-plus"></i> Pedir</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: AFICHES Y PROMOCIONES OFICIALES -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <span>PROMOCIONES Y COMBOS</span>
+                    <h2>Carteles Oficiales de Promociones</h2>
+                    <p>Revisa nuestras cartas gráficas con todas las combinaciones, acompañamientos y ofertas familiares.</p>
+                </div>
+
+                <div class="menu-posters">
+                    <figure class="menu-poster">
+                        <img src="assets/menu/menu1.jpg" alt="Afiche de Especiales, otros platos y bebidas">
+                        <figcaption>Especiales, Otros Platos y Bebidas</figcaption>
+                    </figure>
+
+                    <figure class="menu-poster">
+                        <img src="assets/menu/menu2.jpg" alt="Afiche de Pizzas clásicas, supremas y acompañantes">
+                        <figcaption>Pizzas Clásicas, Supremas y Acompañantes</figcaption>
+                    </figure>
+
+                    <figure class="menu-poster">
+                        <img src="assets/promos/promo28.jpg" alt="Afiche de Promoción Familiar pizza con alitas">
+                        <figcaption>Promoción Familiar: Pizza + Alitas</figcaption>
+                    </figure>
+
+                    <figure class="menu-poster">
+                        <img src="assets/promos/promocomjuguete.jpg" alt="Afiche de Promoción Infantil con juguete">
+                        <figcaption>Promoción Infantil City Kids con Juguete</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: TABLA DE PRECIOS Y TAMAÑOS (REQUISITO APF3: 5+ REGISTROS) -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-title">
+                    <span>LISTA DE PRECIOS DETALLADA</span>
+                    <h2>Tabla de Variedades y Precios</h2>
+                    <p>Encuentra el tamaño y la combinación perfecta para cada ocasión.</p>
+                </div>
+
+                <div class="menu-table-container">
+                    <table class="menu-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Producto</th>
+                                <th>Categoría</th>
+                                <th>Ingredientes Principales</th>
+                                <th>Tamaño / Ración</th>
+                                <th>Precio (S/.)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><strong>Pizza Pepperoni Clásica</strong></td>
+                                <td>Pizzas Clásicas</td>
+                                <td>Salsa pomodoro artesanal, abundante mozzarella y rodajas de pepperoni</td>
+                                <td>Familiar (8 porciones)</td>
+                                <td>S/ 38.00</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><strong>Pizza Hawaiana Tradicional</strong></td>
+                                <td>Pizzas Clásicas</td>
+                                <td>Jamón selecto, piña en almíbar caramelizada y queso mozzarella</td>
+                                <td>Familiar (8 porciones)</td>
+                                <td>S/ 36.00</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><strong>Pizza Cuatro Quesos</strong></td>
+                                <td>Pizzas Especiales</td>
+                                <td>Mezcla de queso mozzarella, parmesano, provolone y gorgonzola</td>
+                                <td>Familiar (8 porciones)</td>
+                                <td>S/ 42.00</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><strong>Pizza Suprema City</strong></td>
+                                <td>Pizzas Especiales</td>
+                                <td>Pepperoni, salchicha italiana, pimiento verde, cebolla y champiñones</td>
+                                <td>Familiar (8 porciones)</td>
+                                <td>S/ 44.00</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><strong>Pizza Mozzarella Margarita</strong></td>
+                                <td>Pizzas Clásicas</td>
+                                <td>Salsa pomodoro, hojas de albahaca fresca y doble queso mozzarella</td>
+                                <td>Mediana (6 porciones)</td>
+                                <td>S/ 28.00</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><strong>Promo Familiar 28</strong></td>
+                                <td>Promociones</td>
+                                <td>1 Pizza Familiar (sabor a elegir) + 6 Alitas BBQ + Gaseosa 1.5L</td>
+                                <td>Combo Familiar</td>
+                                <td>S/ 48.00</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><strong>Combo Infantil City Kids</strong></td>
+                                <td>Promociones</td>
+                                <td>1 Pizza Personal + Gaseosa o néctar individual + Juguete coleccionable</td>
+                                <td>Menú Niños</td>
+                                <td>S/ 20.00</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td><strong>Alitas Crujientes BBQ</strong></td>
+                                <td>Acompañantes</td>
+                                <td>8 alitas marinadas con salsa barbacoa de la casa y papas rústicas</td>
+                                <td>Porción para compartir</td>
+                                <td>S/ 18.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div style="background-color: #e5effd; border-left: 4px solid var(--color-secondary); padding: 18px 22px; border-radius: 8px; margin-top: 25px;">
+                    <p style="font-size: 14px; color: var(--color-texto); margin: 0;">
+                        <i class="bi bi-info-circle-fill" style="color: var(--color-secondary); margin-right: 6px;"></i>
+                        <strong>Nota sobre precios:</strong> Los precios y disponibilidad de promociones pueden variar según la temporada. Consulta el costo de envío según tu zona en San Vicente de Cañete al realizar tu pedido.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: INFORMACIÓN DE PEDIDO -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <span>MÉTODOS DE PAGO Y ATENCIÓN</span>
+                    <h2>¿Cómo Realizar tu Pedido?</h2>
+                    <p>Te ofrecemos total facilidad para ordenar y pagar con total comodidad.</p>
+                </div>
+
+                <div class="features">
+                    <article class="feature-card">
+                        <div class="valor-icon"><i class="bi bi-whatsapp"></i></div>
+                        <h3>Pide por WhatsApp</h3>
+                        <p>Escríbenos directamente al <strong>+51 995 312 255</strong> con tu pedido, dirección y método de pago preferido.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="valor-icon"><i class="bi bi-qr-code-scan"></i></div>
+                        <h3>Pagos Digitales</h3>
+                        <p>Aceptamos pagos rápidos y seguros con <strong>Yape</strong>, <strong>Plin</strong>, transferencias y tarjetas de débito/crédito.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="valor-icon"><i class="bi bi-bicycle"></i></div>
+                        <h3>Cobertura de Delivery</h3>
+                        <p>Reparto rápido en todo San Vicente de Cañete: Imperial, San Luis y zonas aledañas en empaques térmicos.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- LLAMADO A LA ACCIÓN (CTA) -->
+        <section class="cta-banner">
+            <div class="container">
+                <h2>¿Tienes hambre de la mejor pizza?</h2>
+                <p>Comunícate con nosotros para tomar tu orden de inmediato o visita nuestra galería para ver todas las fotos.</p>
+                <div class="cta-buttons">
+                    <a href="galeria.html" class="btn btn-secondary"><i class="bi bi-images"></i> Ver Galería de Fotos</a>
+                    <a href="contacto.html" class="btn btn-primary"><i class="bi bi-telephone-fill"></i> Hacer Mi Pedido Ahora</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER CON INFORMACIÓN DE CONTACTO COMPLETA -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo" aria-label="City Pizza Inicio">
+                    <img src="assets/brand/logo.jpg" alt="Logo de City Pizza" class="logo-image">
+                    <span class="logo-text">City <span>Pizza</span></span>
+                </a>
+
+                <p class="footer-description">
+                    El auténtico sabor de la pizza artesanal en San Vicente de Cañete. Calidad, frescura y calidez en cada porción.
+                </p>
+
+                <!-- INFORMACIÓN DE CONTACTO COMPLETA (DIRECCIÓN, TELÉFONO Y CORREO) -->
+                <address class="footer-contacto">
+                    <p><i class="bi bi-geo-alt-fill"></i> Av. Mariscal Benavides 338, San Vicente de Cañete, Lima, Perú</p>
+                    <p><i class="bi bi-telephone-fill"></i> <a href="tel:+51995312255">+51 995 312 255</a></p>
+                    <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contacto@citypizza.example">contacto@citypizza.example</a></p>
+                </address>
+            </div>
+
+            <div class="footer-links">
+                <h3>Navegación</h3>
+                <a href="index.html"><i class="bi bi-chevron-right"></i> Inicio</a>
+                <a href="nosotros.html"><i class="bi bi-chevron-right"></i> Nosotros</a>
+                <a href="menu.html"><i class="bi bi-chevron-right"></i> Menú</a>
+                <a href="galeria.html"><i class="bi bi-chevron-right"></i> Galería</a>
+                <a href="contacto.html"><i class="bi bi-chevron-right"></i> Contacto</a>
+            </div>
+
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <a href="https://www.instagram.com/citypizza_sanvicente/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i> Instagram</a>
+                <a href="https://www.facebook.com/YaVieneLaPizza/?locale=es_LA" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i> Facebook</a>
+                <a href="https://wa.me/51995312255" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 City Pizza - San Vicente de Cañete. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- BOTÓN VOLVER ARRIBA -->
+    <a href="#inicio" class="scroll-up" title="Volver arriba" aria-label="Volver arriba">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- SCRIPT PRINCIPAL -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+
